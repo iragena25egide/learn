@@ -67,3 +67,22 @@ menu.onclick =()=>{
     Left.style.display='inline-block';
     Left.style.width='35%';
 }
+
+//for user option
+
+let deleteUser=document.querySelector('#delete_user');
+let deleteOpt=document.querySelector('.delete_opt');
+let deleted=document.querySelector('#deleted');
+let editOpt=document.querySelector('.edit_opt');
+let edited=document.querySelector('#edit');
+let view=document.querySelector('#view');
+
+view.onclick=()=>{
+deleteOpt.style.display='block';
+}
+deleted.onclick=()=>{
+    deleteOpt.style.display='none';
+}
+edited.onclick=()=>{
+    editOpt.style.display='block';
+}
