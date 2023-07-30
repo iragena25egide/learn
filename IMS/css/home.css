@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #a5a4a4;
+
+}
+nav{
+    width: 100%;
+    background-color: #023d81;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+
+}
+.left-nav{
+    display: flex;
+    width: 16.5%;
+    border-right: 2px solid #023d81;
+}
+.left-nav span{
+    font-size: 30px;
+    color: #ccc;
+    margin: 10px 0px 10px 8px;
+    cursor: pointer;
+}
+.left-nav samp{
+    color: rgb(245, 245, 245);
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 15px 0px 5px 5px;
+    font-size: 45x;
+}
+.right-nav{
+    display: flex;
+    width: 81.5%;
+    justify-content: space-between;
+   
+}
+.left-navigation{
+    margin: 20px 0px 30px 15px;
+    cursor: pointer;
+    color: #fff;
+    font-size: larger;
+}
+.log{
+    margin: 20px 0px 0px 990px;
+    display: flex;
+    cursor: pointer;
+}
+.log samp{
+    margin: 9px 0px 0px 4px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(194, 194, 194, 0.877);
+}
+.log span{
+    color: rgba(255, 255, 255, 0.863);
+}
+/*end of heading*/
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-container{
+    width: 16.5%;
+    background-color: #021d3b;
+    display: block;
+    
+    height: 597px;
+}
+.left-container 
+.dashborad,
+.class,
+.module,
+.teacher,
+.student,
+.grade,
+.calendar,
+.bin,
+.notification,
+.add_student{
+    margin: 10px 0px 20px 13px;
+    cursor: pointer;
+    width: 80%;
+    padding: 3px 0px 5px 5px;
+    height: 40px;
+    display: flex;
+}
+.left-container 
+.dashborad:hover,
+.class:hover,
+.module:hover,
+.teacher:hover,
+.student:hover,
+.grade:hover,
+.calendar:hover,
+.bin:hover,
+.notification:hover,
+.add_student:hover{
+    
+    background: rgba(129, 127, 127, 0.644);
+    border-radius: 13px;
+
+}
+
+.left-container 
+.dashborad span,
+.class span,
+.module span,
+.teacher span,
+.student span,
+.grade span,
+.calendar span,
+.bin span,
+.notification span,
+.add_student span{
+    margin: 8px 6px 0px 0px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.822);
+    
+
+}
+.left-container 
+.dashborad samp,
+.class samp,
+.module samp,
+.teacher samp,
+.student samp,
+.grade samp,
+.calendar samp,
+.bin samp,
+.notification samp,
+.add_student samp{
+    margin: 13px 0px 0px 4px;
+    color: rgba(255, 255, 255, 0.733);
+    font-family: 'loto',sans-serif;
+    font-size: 14px;
+
+}
+#manager:hover{
+    cursor: pointer;
+    color: #021d3b;
+    font-weight: 500;
+}
+.test{
+    width: 84.5%;
+    height: 597px;
+    position: absolute;
+    background: rgba(29, 29, 29, 0.466);
+    display: none;
+
+}
+.pro{
+    width: 84.5%;
+    height: 597px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.644);
+    display: none;
+    
+}
+.use{
+    width: 84.5%;
+    height: 597px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.527);
+    display: none; 
+}
+.user{
+    width: 28%;
+    height: 450px;
+    border-radius: 5px;
+    background: #fff;
+    margin: 4px 0px 0px 825px;
+}
+.use #closeUser{
+    position: absolute;
+    margin: 10px 0px 0px 1130px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #021d3b;
+    font-weight: 500;
+}
+.user button{
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    color: #023d81;
+    margin: 380px 0px 0px 120px;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.pro .intro{
+    width: 70%;
+    height: 500px;
+    border-radius: 5px;
+    
+    
+    background: #fff;
+    padding: 10px;
+    margin:80px 0px 20px 190px;
+    transition: 2s ease-out;
+}
+.pro samp{
+    position: absolute;
+    margin: 90px 0px 0px 970px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #021d3b;
+    font-weight: 500;
+}
+.test samp{
+    position: absolute;
+    margin: 100px 0px 0px 660px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #021d3b;
+    font-weight: 500;
+}
+.manager{
+    width: 25%;
+    height: 470px;
+    border-radius: 5px;
+    
+    
+    background: #fff;
+    padding: 10px;
+    margin:90px 0px 20px 400px;
+    transition: 2s ease-out;
+    
+}
+.manager img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 20px 0px 0px 80px;
+}
+.manager button{
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    color: #023d81;
+    margin: 80px 0px 0px 80px;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.manager small{
+    font-size: 17px;
+    font-family: 'loto',sans-serif;
+    margin: 10px 0px 20px 2px;
+    color: #023d81;
+
+}
+.right-container{
+    width: 90%;
+    background: #d1d0d0;
+    
+}
+.management{
+    width: 90%;
+    background: #d1d0d0;
+    display: none;
+}
+.management .management-top{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    /*border-bottom: 0.3px solid #202020bb;*/
+    height: 50px;
+}
+.management .management-bottom{
+     background: #fff;
+     border-top: 2px solid #023d81;
+     padding: 20px;
+     margin: 30px 0px 0px 0px;
+     width: 100%;
+     height: 512px;
+     overflow-x: hidden; 
+    overflow-y: auto;
+    
+ }
+ .management .management-bottom samp{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+ }
+ .management .management-bottom small{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #233d82;
+    text-decoration: underline;
+    cursor: pointer;
+ }
+ .management .management-bottom table{
+    margin: 6px 0px 0px 20px;
+    border: 1px solid #023d81;
+    width: 90%;
+    font-family: 'loto',sans-serif;
+    font-size: 15px;
+ }
+ .management .management-bottom table thead{
+    height: 40px;
+    
+ }
+
+ .management .management-bottom table button{
+     outline: none;
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 70px;
+    height: 35px;
+    color: #023d81;
+    margin: 0px 0px 0px 0px;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+ .management .management-bottom table span{
+     cursor: pointer;
+ }
+ 
+ .management .management-bottom table td{
+    margin-top: 10px;
+    padding: 2px 0px 4px 40px;
+ }
+ .management .management-bottom table th{
+    border-bottom:  1px solid #023d81;
+   margin: 2px 9px 0px 0px;
+    font-size: 15px;
+    color: #023d83;
+    font-weight: 600;
+ }
+.management .management-top .left-top{
+    padding: 20px;
+
+}
+
+.management .management-top .left-top small{
+    color: #021d3b;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.management .management-top .center-top{
+    border: 1px solid #021d3b;
+    height: 30px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0px 0px 0px;
+}
+.management .management-top .center-top input{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    background: none;
+    border-bottom: none;
+}
+.management .management-top .center-top span{
+    margin: 3px 0px 0px 10px;
+    cursor: pointer;
+}
+.management .management-top .right-top{
+    padding: 20px;
+    margin: 4px 20px 0px 0px;
+}
+.management .management-top .right-top span{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.delete_opt{
+    width: 84.5%;
+    height: 597px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.644);
+    display: none;
+
+}
+.edit_opt{
+    width: 84.5%;
+    height: 597px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.644);
+    display: none;
+}
+.edit_opt .editOpt{
+    width: 35%;
+    height: 450px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 140px 0px 0px 380px;
+}
+.delete_opt .option{
+    width: 30%;
+    height: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 70px 0px 0px 400px;
+}
+.delete_opt .option .bottom_cont{
+    padding: 5px 0px 4px 0px;
+
+    border-top: 0.5px solid #ccc;
+    margin: 440px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.delete_opt .option .bottom_cont button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    outline: none;
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+}
+.delete_opt .option samp{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    margin: 0px 0px 0px 80px;
+    font-weight: 500;
+}
+
+.delete_opt .option p{
+    font-family: 'loto',sans-serif;
+    font-size: 18px;
+    margin: 40px 0px 0px 150px;
+    color: #000;
+    font-weight: 500;
+}
+.delete_opt .opt{
+    padding: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dashboard_content{
+    width: 100%;
+    background: #d1d0d0;
+    
+}
+.dashboard_content .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dashboard_content .top .left{
+    display: flex;
+
+}
+.dashboard_content .top .left h1{
+    margin: 6px 20px 0px 0px;
+    font-family: 'loto',sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+}
+.dashboard_content .top .left small{
+    margin: 6px 0px 0px 0px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(31, 30, 30);
+    cursor: pointer;
+    font-size: 14px;
+}
+.dashboard_content .top .left small:hover{
+    text-decoration: underline;
+}
+.dashboard_content .top .right{
+    display: flex;
+    margin-right: 20px;
+}
+.dashboard_content .top .right span{
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.dashboard_content .top .right samp{
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'loto',sans-serif;
+    margin: 14px 4px 0px 2px;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+.center .content{
+    width: 150%;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100px;
+    border-radius: 8px;
+    background: #47c7e7ad;
+    display: block;
+}
+.center .content span{
+    margin: 20px 0px 20px 80px;
+    color: #021d3b;
+    font-size: 80px;
+}
+.center .content .adds{
+    display: flex;
+    font-family: "roboto",sans-serif;
+    font-size: 16px;
+    color: #021d3b;
+    justify-content: space-around;
+}
+.center .content .adds h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #042b58ab;
+}
+
+
+.center .content_1{
+    width: 150%;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100px;
+    border-radius: 8px;
+    background: #884f80d3;
+    display: block;
+}
+.center .content_1 span{
+    margin: 20px 0px 20px 80px;
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 80px;
+}
+.center .content_1 .adds{
+    display: flex;
+    font-family: "roboto",sans-serif;
+    font-size: 16px;
+    color: #021d3b;
+    justify-content: space-around;
+}
+.center .content_1 .adds h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #042b58ab;
+}
+
+
+.center .content_2{
+    width: 150%;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100px;
+    border-radius: 8px;
+    background: #05c7e0cb;
+    display: block;
+}
+.center .content_2 span{
+    margin: 20px 0px 20px 80px;
+    color: white;
+    font-size: 80px;
+}
+.center .content_2 .adds{
+    display: flex;
+    font-family: "roboto",sans-serif;
+    font-size: 16px;
+    color: #021d3b;
+    justify-content: space-around;
+}
+.center .content_2 .adds h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #042b58ab;
+}
+.center .profile{
+    width: 150%;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100px;
+    border-radius: 8px;
+    background: #07e940b7;
+    display: block;
+}
+.center .profile span{
+    margin: 20px 0px 20px 80px;
+    color: white;
+    font-size: 80px;
+}
+.center .profile .adds p{
+   
+    cursor: pointer;
+    color: #042b58ab;
+    font-family: "roboto",sans-serif;
+    text-align: center;
+}
+.center .profile .adds p:hover{
+    text-decoration: underline;
+}
+
+
+.admin{
+    margin: 80px 10px 0px 0px;
+    justify-content: space-around;
+    display: flex;
+}
+.board{
+    width: 15%;
+    height: 230px;
+    background: #fff;
+    border-radius: 10px;
+
+}
+.board img{
+    width: 150px;
+    padding: 20px;
+    margin: 0px 0px 0px 26px;
+    height: 150px;
+    border-radius: 100px;
+}
+.board h4{
+    font-family: 'loto',sans-serif;
+    font-size: 18px;
+    margin: 2px 0px 20px 12px;
+    color: #021d3b;
+}
+.board small{
+    text-align: center;
+    font-family: 'loto',sans-serif;
+    margin: 2px 0px 0px 50px;
+    font-size: 14px;
+}
+ 
